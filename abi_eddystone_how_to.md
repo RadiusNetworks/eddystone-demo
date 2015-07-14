@@ -1,4 +1,4 @@
-## How to detect Eddystone-compatible Beacons
+## How to detect Eddystone-Compatible Beacons
 
 In order to detect Eddystone-compatible beacons, you simply need to add new BeaconParsers for each frame type you wish 
 to detect and decode.  Do this the first time you access the BeaconManager in your Application, Service or Activity like so:
@@ -138,7 +138,7 @@ The example below also shows how to access fields from the Eddystone-TLM frame.
     }
 ````
 
-### Working with Eddystone URL
+### Working With Eddystone URL
 
 When working with Eddystone URL, you generally want to detect all beacons regardless of the URL it is transmitting.  Since
 the Android Beacon Library treats the URL as the beacon's unique identifier, you should use the ranging APIs and define a region 
